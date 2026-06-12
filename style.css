@@ -679,6 +679,56 @@ html[dir="rtl"] .timeline-item:nth-child(even) .timeline-dot {
     border: 1px solid rgba(10, 25, 47, 0.1);
 }
 
+/* Testimonials */
+.testimonials .grid-3 {
+    align-items: stretch;
+}
+
+.testimonial-card {
+    padding: 40px 30px;
+    position: relative;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-icon {
+    font-size: 2rem;
+    color: var(--accent-color);
+    opacity: 0.3;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.stars {
+    color: var(--accent-color);
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.review-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.reviewer-info {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 15px;
+}
+
+.reviewer-name {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.reviewer-role {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
 /* Footer */
 .footer {
     background: var(--primary-color);

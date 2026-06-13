@@ -13,6 +13,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.14.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.14.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAqltpWbGInNp0_jAFJkuEiqN_0a2STZHQ",
+    authDomain: "qalamdz-e341c.firebaseapp.com",
+    projectId: "qalamdz-e341c",
+    storageBucket: "qalamdz-e341c.firebasestorage.app",
+    messagingSenderId: "747950318884",
+    appId: "1:747950318884:web:42611de37378786241bfb1",
+    measurementId: "G-VKKGL9QHKE"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+    
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container nav-container">
